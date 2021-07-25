@@ -1,1 +1,15 @@
-<p>github-result works!</p>
+<div class="container">
+    <h3>Github user details</h3>
+    <p>Bio: {{user.bio}}</p>
+    <p>Public_repos: {{user.public_repos}} </p>
+    <p>Login: {{user.login}} </p>
+    <img src="{{user.avatar_url}}">
+    <hr>
+    <h3>User repositories</h3>
+    <div *ngFor="let repoInfo of repoInfo">
+        <h4>{{repoInfo.name}}</h4>
+        <p>{{repoInfo.description}}</p>
+        <p>{{repoInfo.clone_url}}</p>
+        <p>{{repoInfo.language}}</p>
+    </div>
+</div>
