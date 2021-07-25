@@ -18,4 +18,13 @@ export class GithubRequestServiceService {
     this.repository = new
       Repository("", "", "", "")
   }
+
+
+  getUser(username:string){
+    interface ApiResponse{
+      bio:string ,
+      public_repos:number, 
+      login:string,
+      avatar_url:string }
+    
 }
