@@ -14,3 +14,7 @@ button {
     margin-top: 30px;
     box-shadow: 0 0 15px 5px rgb(212, 210, 210);
 }
+
+p {
+    color: rgb(238, 69, 97);
+}
