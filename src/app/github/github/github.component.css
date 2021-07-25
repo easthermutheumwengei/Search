@@ -18,3 +18,14 @@ h4 {
     font-family: 'Stint Ultra Condensed', cursive;
     font-size: 35px;
 }
+
+.details {
+    background-color: #264653;
+    color: #e9c46a;
+    padding: 30px;
+    width: 30%;
+    float: left;
+    margin-top: 80px;
+    margin-left: 150px;
+    border-radius: 20%;
+}
