@@ -1,3 +1,5 @@
 <div class="container">
     <div class="card">
         <p>~Enter your github username:</p>
+        <form (ngSubmit)="submitUsername()">
+            <input type="text" name="username" [(ngModel)]="username" placeholder="username"><br>
