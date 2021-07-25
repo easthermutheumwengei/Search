@@ -3,3 +3,18 @@ img {
     border-radius: 50%;
     margin-left: 40px;
 }
+
+p,
+h2 {
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h4 {
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 35px;
+}
