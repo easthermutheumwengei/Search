@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { GithubRequestService } from 'src/app/github-http/github-request.service';
 import { User } from 'src/app/user';
+import { NavbarComponent } from 'src/app/navbar/navbar/navbar.component';
 
 @Component({
   selector: 'app-github-form',
