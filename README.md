@@ -1,27 +1,75 @@
 # Search
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+A website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories
+
+## Built With
+
+- HTML
+- CSS
+- Bootstrap
+- Javascript
+- Typscript
+- Angular CLI version 12.1.2
+
+## Live Demo
+
+[Live Demo Link](https://easthermutheumwengei.github.io/Search//)
+
+## Getting Started
+
+To get a local copy, follow these simple example steps.
+
+### Prerequisites
+
+A computer with a working and up to date web browser.
+
+### Setup
+
+- Clone the repository to your folder of choice using Git (or just download all the files)
+
+```
+$ git clone git@github.com:easthermutheumwengei/Search.git
+
+```
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## BDD
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Objectives:
 
-## Build
+1. Landing page with repos and username
+2. A form to input usernname and submit button
+3. search results tab
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Author
 
-## Running unit tests
+👤 **Author**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+By Easther Mutheu Mwengei
 
-## Running end-to-end tests
+- GitHub: [@easthermutheumwengei](https://github.com/easthermutheumwengei)
+- twitter: [@dylandaxy](https://twitter.com/dylandaxy)
+- email: <a href="mailto:easther.mwengei@student.moringaschool.com"> mail📪</a>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
 
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Appreciation to Moringa school for giving me this opportunity to learn 😊
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
