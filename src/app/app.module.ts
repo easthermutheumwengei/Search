@@ -16,7 +16,9 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     GithubComponent,
     NavbarComponent,
-    GithubResultComponent
+    GithubResultComponent,
+    GithubFormComponent,
+    // GithubRequestService
   ],
   imports: [
     BrowserModule,

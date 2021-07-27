@@ -7,11 +7,12 @@ import { GithubResultComponent } from './github-result/github-result/github-resu
 const routes: Routes = [
   {path:'github',component:GithubComponent},
   { path: 'githubform', component: GithubFormComponent },
-{path:'githubresult',component:GithubResultComponent}  
+  { path: 'githubresult', component: GithubResultComponent },
+  // {path: '**', redirectTo: 'home', pathMatch: 'full'}
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class AppRoutingModule { }
