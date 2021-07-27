@@ -1,4 +1,21 @@
 nav {
-    background-color: #10d4f7;
+    background-color: #10f7bd;
     height: 70px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-nav a {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: rgb(68, 67, 136);
 }
